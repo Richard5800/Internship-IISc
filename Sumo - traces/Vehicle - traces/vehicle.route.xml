@@ -1,0 +1,29 @@
+<routes>
+    <vType id="car1" accel="0.8" decel="4.5" sigma="0.5" length="5" maxSpeed="90"/>
+<vType id="car2" accel="0.8" decel="4.5" sigma="0.5" length="5" maxSpeed="90"/>
+<vType id="car3" accel="0.8" decel="4.5" sigma="0.5" length="5" maxSpeed="90"/>
+<vType id="car4" accel="0.8" decel="4.5" sigma="0.5" length="5" maxSpeed="90"/>
+<vType id="bus1" accel="0.8" decel="4.5" sigma="0.5" length="10" maxSpeed="70"/>
+<vType id="bus2" accel="0.8" decel="4.5" sigma="0.5" length="10" maxSpeed="70"/>
+
+    <vehicle id="0" type="car1" depart="0" color="green">
+      <route edges="-465135507#5 116908421#0 116908421#1 116908421#2"/>
+    </vehicle>
+<vehicle id="1" type="car2" depart="1" color="red">
+      <route edges="-465135507#5 116908421#0 116908421#1 116908421#2 -116908421#2"/>
+    </vehicle>
+<vehicle id="2" type="car3" depart="2" color="blue">
+      <route edges="38978208#1 -36732232#0 465135507#6 -38978201#5 -38978201#4 -38978204#1 38978211#1"/>
+    </vehicle>
+<vehicle id="3" type="car4" depart="3" color="orange">
+      <route edges="-465135507#6 36732232#0 36732232#1 36732232#2 38978210"/>
+    </vehicle>
+<vehicle id="4" type="bus1" depart="4" color="red">
+      <route edges="-465135507#5 116908421#0 116908421#1 116908421#2 -116908421#2"/>
+    </vehicle>
+<vehicle id="5" type="bus2" depart="5" color="blue">
+      <route edges="38978208#1 -36732232#0 465135507#6 -38978201#5 -38978201#4 -38978204#1 38978211#1"/>
+    </vehicle>
+
+
+</routes>
